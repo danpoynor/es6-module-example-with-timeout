@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>body{font-family:sans-serif}code{background:#e2e2e2}</style>
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+  <h1>ES6 dynamic module loading example: <br>After 3 seconds a JavaScript module is loaded.</h1>
+
+  <p>✅ Dynamic module loading works when filename is <code>user.js</code>.<br>You'll see the output in the console.</p>
+
+  <pre><code>
+  first: John
+  last: Doe</code></pre>
+
+  <p>❌ But an error occurs when using filename <code>user.mjs</code> and previewing using CK preview server.</p>
+
+  <pre><code>
+  Failed to load module script: Expected a JavaScript module script but the server responded
+  with a MIME type of "text/plain". Strict MIME type checking is enforced for module scripts
+  per HTML spec</code></pre>
+
+</body>
+</html>
